@@ -15,6 +15,9 @@
 		F4BD74701E20975400229EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD746E1E20975400229EC0 /* LaunchScreen.storyboard */; };
 		F4BD747B1E20975400229EC0 /* JWCustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD747A1E20975400229EC0 /* JWCustomViewTests.m */; };
 		F4BD74861E20975400229EC0 /* JWCustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD74851E20975400229EC0 /* JWCustomViewUITests.m */; };
+		F4BD749B1E20B9D700229EC0 /* JWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD74941E20B9D700229EC0 /* JWActionSheet.m */; };
+		F4BD749C1E20B9D700229EC0 /* JWFooterLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD74961E20B9D700229EC0 /* JWFooterLoadView.m */; };
+		F4BD749E1E20B9D700229EC0 /* JWPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD749A1E20B9D700229EC0 /* JWPageScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		F4BD74811E20975400229EC0 /* JWCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BD74851E20975400229EC0 /* JWCustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCustomViewUITests.m; sourceTree = "<group>"; };
 		F4BD74871E20975400229EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD74931E20B9D700229EC0 /* JWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWActionSheet.h; sourceTree = "<group>"; };
+		F4BD74941E20B9D700229EC0 /* JWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWActionSheet.m; sourceTree = "<group>"; };
+		F4BD74951E20B9D700229EC0 /* JWFooterLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFooterLoadView.h; sourceTree = "<group>"; };
+		F4BD74961E20B9D700229EC0 /* JWFooterLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFooterLoadView.m; sourceTree = "<group>"; };
+		F4BD74991E20B9D700229EC0 /* JWPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPageScrollView.h; sourceTree = "<group>"; };
+		F4BD749A1E20B9D700229EC0 /* JWPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				F4BD74641E20975400229EC0 /* AppDelegate.m */,
 				F4BD74661E20975400229EC0 /* ViewController.h */,
 				F4BD74671E20975400229EC0 /* ViewController.m */,
+				F4BD74931E20B9D700229EC0 /* JWActionSheet.h */,
+				F4BD74941E20B9D700229EC0 /* JWActionSheet.m */,
+				F4BD74951E20B9D700229EC0 /* JWFooterLoadView.h */,
+				F4BD74961E20B9D700229EC0 /* JWFooterLoadView.m */,
+				F4BD74991E20B9D700229EC0 /* JWPageScrollView.h */,
+				F4BD749A1E20B9D700229EC0 /* JWPageScrollView.m */,
 				F4BD74691E20975400229EC0 /* Main.storyboard */,
 				F4BD746C1E20975400229EC0 /* Assets.xcassets */,
 				F4BD746E1E20975400229EC0 /* LaunchScreen.storyboard */,
@@ -276,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BD749C1E20B9D700229EC0 /* JWFooterLoadView.m in Sources */,
 				F4BD74681E20975400229EC0 /* ViewController.m in Sources */,
 				F4BD74651E20975400229EC0 /* AppDelegate.m in Sources */,
+				F4BD749E1E20B9D700229EC0 /* JWPageScrollView.m in Sources */,
+				F4BD749B1E20B9D700229EC0 /* JWActionSheet.m in Sources */,
 				F4BD74621E20975400229EC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

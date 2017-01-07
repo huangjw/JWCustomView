@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JWActionSheet.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showActionSheet:(id)sender {
+    JWActionSheet *action = [[JWActionSheet alloc] initWithTitle:nil];
+    [action addButtonWithTitle:@"first" type:ActionSheetButtonTypeDefault handler:^(JWActionSheet *sheet) {
+        NSLog(@"first");
+    }];
+    [action show];
+}
 
 @end
